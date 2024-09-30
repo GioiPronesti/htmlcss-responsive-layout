@@ -29,3 +29,64 @@ img {
     max-width: 100%;
 }
 
+/* Layout Desktop */ 
+
+.page-container {
+
+    max-width: 100%;
+    margin: 0;
+    padding: 10px;
+}
+
+.navbar {
+    padding: 0 5px;
+    max-width: 100%;
+}
+
+/*HEADER*/
+
+.header .yellow-title {
+
+   color: #F88400;
+   font-family: 'Nerko One', cursive ;
+   font-size: 60px ;
+   
+}
+
+
+/*utilities rules*/
+
+
+/* Debug Rules */ 
+
+.debug .page-container {
+    border: 2px solid violet;
+    padding: 10px;
+}
+
+.debug .navbar {
+    border: 1px solid;
+    padding: 0 5px;
+}
+
+/* Responsive Layout */ 
+
+/*tablet layout*/
+
+@media (max-width: 991.99px) {
+
+    .header .navbar {
+
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 767.99px ) {
+
+    .header .navbar {
+
+        display: flex;
+        justify-content: center;
+    }
+}
+ 
