@@ -1,0 +1,27 @@
+/*Reset layout Rules*/
+
+:root {
+    /*  css variables */
+    --brand-color-:#7C69A4;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
