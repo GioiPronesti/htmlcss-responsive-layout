@@ -38,11 +38,32 @@ img {
     padding: 10px;
 }
 
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-8 {
+    width: 66%;
+    padding: 10px;
+}
+
 .navbar {
     padding: 0 5px;
     max-width: 100%;
 }
 
+
+.footer {
+    background-color: #7C69A4;
+    color:white;
+    padding: 20px;
+}
 /*HEADER*/
 
 .header .yellow-title {
@@ -55,7 +76,9 @@ img {
 
 
 /*utilities rules*/
-
+.page-bg {
+    background-color: whitesmoke;
+}
 
 /* Debug Rules */ 
 
@@ -69,6 +92,19 @@ img {
     padding: 0 5px;
 }
 
+.debug .container {
+    border: 2px solid rgb(165, 53, 165);
+}
+
+.dubug .row {
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.debug .row > * {
+    border: 2px solid blue ;
+}
+
 /* Responsive Layout */ 
 
 /*tablet layout*/
@@ -80,6 +116,8 @@ img {
         padding: 10px 20px;
     }
 }
+
+/* mobile Layout*/
 
 @media (max-width: 767.99px ) {
 
